@@ -20,6 +20,7 @@ public class LimitDto implements Serializable {
   @Serial
   private static final long serialVersionUID = 1333768168621999332L;
 
-  private Long id;
-  private String name;
+  private Integer minimum;
+  private Integer maximum;
+  private Integer name;
 }

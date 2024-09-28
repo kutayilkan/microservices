@@ -1,6 +1,7 @@
 package com.hoodzie.microservices.user.business.concretes;
 
 import com.hoodzie.microservices.core.exceptions.UserNotFoundException;
+import com.hoodzie.microservices.user.business.abstracts.UserService;
 import com.hoodzie.microservices.user.entities.dtos.UserDTO;
 import java.time.LocalDate;
 import java.util.ArrayList;
